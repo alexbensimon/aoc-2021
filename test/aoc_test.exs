@@ -77,3 +77,23 @@ defmodule Day04Tests do
     assert Day04.answer_part_2_input() == 12738
   end
 end
+
+defmodule Day05Tests do
+  use ExUnit.Case
+
+  test "Day05 part 1 example" do
+    assert Day05.answer_part_1_example() == 5
+  end
+
+  test "Day05 part 1 input" do
+    assert Day05.answer_part_1_input() == 7674
+  end
+
+  test "Day05 part 2 example" do
+    assert Day05.answer_part_2_example() == 12
+  end
+
+  test "Day05 part 2 input" do
+    assert Day05.answer_part_2_input() == 20898
+  end
+end
