@@ -102,18 +102,18 @@ defmodule Day06Tests do
   use ExUnit.Case
 
   test "Day06 part 1 example" do
-    assert Day06.answer_part_1_example() == 5
+    assert Day06.answer_part_1_example() == 5934
   end
 
   test "Day06 part 1 input" do
-    assert Day06.answer_part_1_input() == 7674
+    assert Day06.answer_part_1_input() == 383_160
   end
 
   test "Day06 part 2 example" do
-    assert Day06.answer_part_2_example() == 12
+    assert Day06.answer_part_2_example() == 26_984_457_539
   end
 
   test "Day06 part 2 input" do
-    assert Day06.answer_part_2_input() == 20898
+    assert Day06.answer_part_2_input() == 1_721_148_811_504
   end
 end
