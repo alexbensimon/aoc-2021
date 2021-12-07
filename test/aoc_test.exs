@@ -117,3 +117,23 @@ defmodule Day06Tests do
     assert Day06.answer_part_2_input() == 1_721_148_811_504
   end
 end
+
+defmodule Day07Tests do
+  use ExUnit.Case
+
+  test "Day07 part 1 example" do
+    assert Day07.answer_part_1_example() == 37
+  end
+
+  test "Day07 part 1 input" do
+    assert Day07.answer_part_1_input() == 333_755
+  end
+
+  test "Day07 part 2 example" do
+    assert Day07.answer_part_2_example() == 168
+  end
+
+  test "Day07 part 2 input" do
+    assert Day07.answer_part_2_input() == 94_017_638
+  end
+end
