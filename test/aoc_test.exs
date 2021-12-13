@@ -237,3 +237,15 @@ defmodule Day12Tests do
     assert Day12.answer_part_2_input() == 116_985
   end
 end
+
+defmodule Day13Tests do
+  use ExUnit.Case
+
+  test "Day13 part 1 example" do
+    assert Day13.answer_part_1_example() == 17
+  end
+
+  test "Day13 part 1 input" do
+    assert Day13.answer_part_1_input() == 827
+  end
+end
