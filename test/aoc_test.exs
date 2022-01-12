@@ -369,3 +369,23 @@ defmodule Day19Tests do
     assert Day19.answer_part_2_input() == 12292
   end
 end
+
+defmodule Day20Tests do
+  use ExUnit.Case
+
+  test "Day20 part 1 example" do
+    assert Day20.answer_part_1_example() == 35
+  end
+
+  test "Day20 part 1 input" do
+    assert Day20.answer_part_1_input() == 5489
+  end
+
+  test "Day20 part 2 example" do
+    assert Day20.answer_part_2_example() == 3351
+  end
+
+  test "Day20 part 2 input" do
+    assert Day20.answer_part_2_input() == 19066
+  end
+end
