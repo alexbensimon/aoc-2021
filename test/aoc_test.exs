@@ -429,3 +429,25 @@ defmodule Day22Tests do
     assert Day22.answer_part_2_input() == 1_187_742_789_778_677
   end
 end
+
+defmodule Day23Tests do
+  use ExUnit.Case
+
+  test "Day23 part 1 example" do
+    assert Day23.answer_part_1_example() == 12521
+  end
+
+  test "Day23 part 1 input" do
+    assert Day23.answer_part_1_input() == 16157
+  end
+
+  @tag timeout: 300_000
+  test "Day23 part 2 example" do
+    assert Day23.answer_part_2_example() == 44169
+  end
+
+  @tag timeout: 300_000
+  test "Day23 part 2 input" do
+    assert Day23.answer_part_2_input() == 43481
+  end
+end
